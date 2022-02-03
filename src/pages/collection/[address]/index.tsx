@@ -478,8 +478,6 @@ const Collection = () => {
     }
   );
 
-  console.log(metadataData);
-
   const { data: legionMetadataData } = useQuery(
     ["metadata-legions", listingData?.pages.length],
     () =>
