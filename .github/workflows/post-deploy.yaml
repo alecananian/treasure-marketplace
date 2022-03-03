@@ -11,4 +11,3 @@ jobs:
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-          PURGE_URLS: '["https://marketplace.treasure.lol", "https://marketplace.treasure.lol/*"]'
